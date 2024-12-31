@@ -12,35 +12,30 @@ body {
 }
 
 .container {
-  font-family: Arial, Helvetica, sans-serif; 
+  font-family: Arial, Helvetica, sans-serif;
 } /*Mainnya*/
 
-/* STYLE HOME */
-
 .nav-bar {
-  display: flex;
+  background: black;
+  display: inline-flex;
+  top: 0;
+  z-index: 1000;
+  position: sticky;
   align-items: center;
+  border: 1px solid;
+  box-shadow: 0 4px 6px black;
   justify-content: space-between;
-  padding: 30px 80px;
+  padding: 40px 180px;
 }
 
 .nav-bar .title {
   color: #fff;
-  font-size: 67px;
+  font-size: 38px;
   font-weight: 600;
 }
 
 span {
   color: crimson;
-}
-
-.nav-bar p {
-  position: absolute;
-  margin-top: 100px;
-  margin-left: 50px;
-  color: #fff;
-  font-size: 20px;
-  font-weight: 500;
 }
 
 .menu li {
@@ -51,9 +46,8 @@ span {
 .menu li a {
   text-decoration: none;
   color: #fff;
-  font-size: 27px;
+  font-size: 15px;
   font-weight: 600;
-  margin-left: 25px;
   transition: 0.4s ease;
 }
 
@@ -62,7 +56,7 @@ span {
   padding: 8px 18px;
   border: 2px solid #fff;
 }
-
+/* STYLE HOME */
 /* STYLE BUTTON HOME */
 
 #home {
@@ -109,7 +103,7 @@ span {
 .product-title {
   height: 50px;
   text-align: center;
-  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7),black);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), black);
   border: 1px solid;
   border-radius: 8px;
   box-shadow: 0 4px 6px black;
@@ -118,7 +112,7 @@ span {
 }
 
 .product-title h1 {
-    color: #f5f5dc;
+  color: #f5f5dc;
 }
 
 .product-grid {
@@ -129,7 +123,7 @@ span {
 }
 
 .product-item {
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7),black);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7), black);
   border: 1px solid;
   border-radius: 8px;
   box-shadow: 0 4px 6px black;
