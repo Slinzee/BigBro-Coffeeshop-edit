@@ -16,16 +16,10 @@ body {
 } /*Mainnya*/
 
 .nav-bar {
-  background: black;
+  padding: 35px;
   display: inline-flex;
-  top: 0;
-  z-index: 1000;
-  position: sticky;
-  align-items: center;
-  border: 1px solid;
-  box-shadow: 0 4px 6px black;
-  justify-content: space-between;
-  padding: 40px 180px;
+  align-items: end;
+  width: 100%;
 }
 
 .nav-bar .title {
@@ -40,13 +34,14 @@ span {
 
 .menu li {
   list-style: none;
-  display: inline-block;
+  display: inline;
+  padding: 35px;
 }
 
 .menu li a {
   text-decoration: none;
   color: #fff;
-  font-size: 15px;
+  font-size: 30px;
   font-weight: 600;
   transition: 0.4s ease;
 }
