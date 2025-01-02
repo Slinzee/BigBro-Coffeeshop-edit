@@ -13,7 +13,7 @@ body {
 
 .container {
   font-family: Arial, Helvetica, sans-serif;
-  color: #fff; /* Default text color */
+  color: #fff;
 }
 
 /* Navigation Bar */
@@ -59,8 +59,8 @@ span {
 #home {
   height: 400px;
   padding: 70px;
-  text-align: center; /* Center text in home section */
-  margin-bottom: 50px; /* Added margin to separate from the product section */
+  text-align: center; 
+  margin-bottom: 50px;
 }
 
 .title-1 {
@@ -95,7 +95,7 @@ span {
 
 #product {
   padding: 70px;
-  margin-bottom: 50px; /* Added margin to separate from any potential footer */
+  margin-bottom: 50px; 
 }
 
 .product-title {
@@ -105,7 +105,7 @@ span {
   border: 1px solid;
   border-radius: 8px;
   box-shadow: 0 4px 6px black;
-  padding: 10px 0; /* Adjusted padding */
+  padding: 10px 0; 
 }
 
 .product-title h1 {
@@ -124,7 +124,7 @@ span {
   border: 1px solid;
   border-radius: 8px;
   box-shadow: 0 4px 6px black;
-  text-align: center; /* Center text in product items */
+  text-align: center; 
 }
 
 .product-item img {
@@ -170,3 +170,4 @@ span {
   background: none;
   border: 2px solid crimson;
 }
+
