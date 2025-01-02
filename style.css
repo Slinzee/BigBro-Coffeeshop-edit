@@ -34,13 +34,10 @@ span {
   color: crimson;
 }
 
-.menu {
-  list-style: none;
-  display: flex;
-}
-
 .menu li {
-  padding: 0 20px; /* Adjusted padding for better spacing */
+  list-style: none;
+  display: inline;
+  padding: 35px;
 }
 
 .menu li a {
@@ -56,8 +53,9 @@ span {
   padding: 8px 18px;
   border: 2px solid #fff;
 }
+/* STYLE HOME */
+/* STYLE BUTTON HOME */
 
-/* Home Section */
 #home {
   height: 400px;
   padding: 70px;
@@ -93,7 +91,8 @@ span {
   border: 2px solid crimson;
 }
 
-/* Product Section */
+/* STYLE PRODUK */
+
 #product {
   padding: 70px;
   margin-bottom: 50px; /* Added margin to separate from any potential footer */
@@ -137,7 +136,13 @@ span {
   border-radius: 10px;
 }
 
-.product-description,
+.product-description {
+  margin: 9px;
+  font-size: 18px;
+  text-align: left;
+  color: #f5f5dc;
+  font-weight: bold;
+}
 .product-price {
   margin: 9px;
   font-size: 18px;
@@ -145,8 +150,9 @@ span {
   font-weight: bold;
 }
 
-/* Button in Product Section */
-.product-item button {
+/* STYLE BUTTON PRODUK */
+
+#product button {
   height: 40px;
   color: #fff;
   background: crimson;
@@ -163,38 +169,4 @@ span {
 .product-item button:hover {
   background: none;
   border: 2px solid crimson;
-}
-
-/* Responsive Design */
-@media ( max-width: 768px) {
-  #home {
-    padding: 40px; /* Reduced padding for smaller screens */
-    height: auto; /* Allow height to adjust based on content */
-  }
-
-  .nav-bar {
-    flex-direction: column; /* Stack navigation items vertically */
-    align-items: flex-start; /* Align items to the start */
-  }
-
-  .menu {
-    flex-direction: column; /* Stack menu items vertically */
-    padding: 10px 0; /* Add padding for better spacing */
-  }
-
-  .menu li {
-    padding: 10px 0; /* Adjusted padding for better spacing */
-  }
-
-  .product-grid {
-    grid-template-columns: 1fr; /* Single column layout for mobile */
-  }
-
-  #product {
-    padding: 40px; /* Reduced padding for smaller screens */
-  }
-
-  .product-item {
-    margin: 10px 0; /* Add margin for spacing between items */
-  }
 }
