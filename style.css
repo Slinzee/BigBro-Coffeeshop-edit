@@ -6,24 +6,26 @@
 
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/img/Background/kopi-bg.jpg);
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .container {
   font-family: Arial, Helvetica, sans-serif;
-} /*Mainnya*/
+  color: #fff; /* Default text color */
+}
 
+/* Navigation Bar */
 .nav-bar {
   padding: 35px;
-  display: inline-flex;
-  align-items: end;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
 }
 
 .nav-bar .title {
-  color: #fff;
   font-size: 38px;
   font-weight: 600;
 }
@@ -32,10 +34,13 @@ span {
   color: crimson;
 }
 
-.menu li {
+.menu {
   list-style: none;
-  display: inline;
-  padding: 35px;
+  display: flex;
+}
+
+.menu li {
+  padding: 0 20px; /* Adjusted padding for better spacing */
 }
 
 .menu li a {
@@ -51,17 +56,17 @@ span {
   padding: 8px 18px;
   border: 2px solid #fff;
 }
-/* STYLE HOME */
-/* STYLE BUTTON HOME */
 
+/* Home Section */
 #home {
   height: 400px;
   padding: 70px;
+  text-align: center; /* Center text in home section */
+  margin-bottom: 50px; /* Added margin to separate from the product section */
 }
 
 .title-1 {
   font-size: 50px;
-  color: #fff;
   font-weight: 600;
 }
 
@@ -79,7 +84,7 @@ span {
   margin-top: 20px;
   border: none;
   border-radius: 5px;
-  transition: 0.4s ease;
+  transition: background 0.4s ease, border 0.4s ease;
   cursor: pointer;
 }
 
@@ -88,22 +93,20 @@ span {
   border: 2px solid crimson;
 }
 
-/* STYLE PRODUK */
-
+/* Product Section */
 #product {
-  height: 400px;
   padding: 70px;
+  margin-bottom: 50px; /* Added margin to separate from any potential footer */
 }
 
 .product-title {
   height: 50px;
   text-align: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), black);
+  background: rgba(0, 0, 0, 0.7);
   border: 1px solid;
   border-radius: 8px;
   box-shadow: 0 4px 6px black;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 0; /* Adjusted padding */
 }
 
 .product-title h1 {
@@ -112,16 +115,17 @@ span {
 
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjusted min size for better layout */
   gap: 16px;
   padding: 20px;
 }
 
 .product-item {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7), black);
+  background: rgba(0, 0, 0, 0.5);
   border: 1px solid;
   border-radius: 8px;
   box-shadow: 0 4px 6px black;
+  text-align: center; /* Center text in product items */
 }
 
 .product-item img {
@@ -133,24 +137,16 @@ span {
   border-radius: 10px;
 }
 
-.product-description {
-  margin: 9px;
-  font-size: 18px;
-  text-align: left;
-  color: #f5f5dc;
-  font-weight: bold;
-}
+.product-description,
 .product-price {
   margin: 9px;
   font-size: 18px;
-  text-align: left;
   color: #f5f5dc;
   font-weight: bold;
 }
 
-/* STYLE BUTTON PRODUK */
-
-#product button {
+/* Button in Product Section */
+.product-item button {
   height: 40px;
   color: #fff;
   background: crimson;
@@ -160,11 +156,45 @@ span {
   margin-bottom: 10px;
   border: none;
   border-radius: 5px;
-  transition: 0.4s ease;
+  transition: background 0.4s ease, border 0.4s ease;
   cursor: pointer;
 }
 
-#product button:hover {
+.product-item button:hover {
   background: none;
   border: 2px solid crimson;
+}
+
+/* Responsive Design */
+@media ( max-width: 768px) {
+  #home {
+    padding: 40px; /* Reduced padding for smaller screens */
+    height: auto; /* Allow height to adjust based on content */
+  }
+
+  .nav-bar {
+    flex-direction: column; /* Stack navigation items vertically */
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .menu {
+    flex-direction: column; /* Stack menu items vertically */
+    padding: 10px 0; /* Add padding for better spacing */
+  }
+
+  .menu li {
+    padding: 10px 0; /* Adjusted padding for better spacing */
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr; /* Single column layout for mobile */
+  }
+
+  #product {
+    padding: 40px; /* Reduced padding for smaller screens */
+  }
+
+  .product-item {
+    margin: 10px 0; /* Add margin for spacing between items */
+  }
 }
