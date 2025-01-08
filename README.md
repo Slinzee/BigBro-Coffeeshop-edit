@@ -17,11 +17,11 @@ Sebelum memulai, pastikan Anda memiliki:
    ```bash
    git clone https://github.com/HanZW02/BigBro-Coffeeshop.git
 
-Masuk ke directory
+2. Masuk ke directory
    ```bash
    cd BigBro-Coffeeshop
 
-buka file html
+3. buka file html
 windows
    ```bash
 start index.html
@@ -34,7 +34,7 @@ open index.html
 Navbar: gunakan untuk berpindah antara bagian halaman
 Form pemesanan: berisi form untuk melakukan pemesanan
 
-Kontribusi
+##Kontribusi
 Kami menyambut kontribusi dari siapa pun. Untuk berkontribusi:
 
 1. Fork Repositori
