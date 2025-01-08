@@ -22,11 +22,12 @@ Sebelum memulai, pastikan Anda memiliki:
    cd BigBro-Coffeeshop
 
 3. buka file html
-windows
+
+- windows
    ```bash
 start index.html
 
-linux atau MacOS
+- linux atau MacOS
    ```bash
 open index.html
 
