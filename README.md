@@ -16,7 +16,6 @@ Sebelum memulai, pastikan Anda memiliki:
    Kloning repositori ini ke komputer Anda:
    ```bash
    git clone https://github.com/HanZW02/BigBro-Coffeeshop.git
-
 cd BigBro-Coffeeshop
 open index.html
 
@@ -32,14 +31,17 @@ Fork repositori ini ke akun GitHub Anda.
 
 2. Buat Branch Fitur
 Buat branch baru untuk fitur atau perbaikan:
+   ```bash
 git checkout -b fitur-baru
 
 3. Commit Perubahan
 Commit perubahan Anda dengan pesan yang jelas:
+   ```bash
 git commit -m 'Menambahkan fitur X'
 
 4. Push ke GitHub
 Push branch Anda ke repositori forked:
+   ```bash
 git push origin fitur-baru
 
 5. Buat Pull Request
