@@ -59,4 +59,4 @@ Push branch Anda ke repositori forked:
 Buat pull request ke repositori ini.
 
 ## Kontak
-Untuk pertanyaan lebih lanjut, silakan hubungi kami melalui rayhanwibowo02@gmail.com@gmail.com.
+Untuk pertanyaan lebih lanjut, silakan hubungi kami melalui rayhanwibowo02@gmail.com
