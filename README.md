@@ -25,11 +25,11 @@ Sebelum memulai, pastikan Anda memiliki:
 
 - windows
    ```bash
-start index.html
+   start index.html
 
 - linux atau MacOS
    ```bash
-open index.html
+   open index.html
 
 ##penggunaan fitur
 Navbar: gunakan untuk berpindah antara bagian halaman
