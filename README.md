@@ -31,13 +31,12 @@ Sebelum memulai, pastikan Anda memiliki:
    ```bash
    open index.html
 
-##penggunaan fitur
-Navbar: gunakan untuk berpindah antara bagian halaman
-Form pemesanan: berisi form untuk melakukan pemesanan
+## penggunaan fitur
+- Navbar: gunakan untuk berpindah antara bagian halaman
+- Form pemesanan: berisi form untuk melakukan pemesanan
 
-##Kontribusi
+## Kontribusi
 Kami menyambut kontribusi dari siapa pun. Untuk berkontribusi:
-
 1. Fork Repositori
 Fork repositori ini ke akun GitHub Anda.
 
@@ -59,5 +58,5 @@ Push branch Anda ke repositori forked:
 5. Buat Pull Request
 Buat pull request ke repositori ini.
 
-Kontak
+## Kontak
 Untuk pertanyaan lebih lanjut, silakan hubungi kami melalui rayhanwibowo02@gmail.com@gmail.com.
