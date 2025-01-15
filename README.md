@@ -40,7 +40,7 @@ Kami menyambut kontribusi dari siapa pun. Untuk berkontribusi:
 1. Fork Repositori
 Fork repositori ini ke akun GitHub Anda.
 
-2.  Buat Branch Fitur
+2. Buat Branch Fitur
 Buat branch baru untuk fitur atau perbaikan:
    ```bash 
    git checkout -b fitur-baru
