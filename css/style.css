@@ -5,7 +5,7 @@
 }
 
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/img/Background/kopi-bg.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/Background/background.jpg);
   background-repeat: repeat;
   background-size: cover;
   background-position: center;
@@ -69,11 +69,15 @@ span {
   font-size: 50px;
   font-weight: 600;
 }
-
 #home p {
   color: lemonchiffon;
   font-size: 20px;
   padding-top: 10px;
+}
+
+#home button a {
+  text-decoration: none;
+  color: lemonchiffon;
 }
 
 #home button {

@@ -1,0 +1,88 @@
+.nav-bar {
+  align-items: center;
+}
+
+.title-pesan {
+  text-align: center;
+}
+
+#form-group {
+  width: auto;
+  margin: 50px;
+  height: 100%;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px black;
+  padding: 25px;
+  align-items: center;
+}
+
+input {
+  width: auto;
+  padding:8px auto;
+  margin: 10px 0;
+}
+
+input[type="text"] {
+  border:none;
+  background:none;
+  border-bottom:2px solid crimson;
+  color: lemonchiffon;
+}
+
+
+/* input[type="checkbox"] { 
+}*/
+
+
+label {
+  color: lemonchiffon;
+  display: inline-block;
+  margin: 10px;
+  font-weight: bold;
+}
+.submit a {
+  text-decoration: none;
+  color: lemonchiffon;
+}
+
+.submit {
+  height: 40px;
+  color: #fff;
+  background: crimson;
+  padding: 5px 30px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  transition: background 0.4s ease, border 0.4s ease;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background: none;
+  border: 2px solid crimson;
+}
+
+.back-btn a {
+  text-decoration: none;
+  color: lemonchiffon;
+}
+
+.back-btn {
+  height: 40px;
+  color: #fff;
+  background: crimson;
+  padding: 5px 30px;
+  margin: 50px;
+  border: none;
+  border-radius: 5px;
+  transition: background 0.4s ease, border 0.4s ease;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background: none;
+  border: 2px solid crimson;
+}
