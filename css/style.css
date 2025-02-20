@@ -152,7 +152,6 @@ span {
 /* Button in Product Section */
 .product-item button {
   height: 40px;
-  color: #fff;
   background: crimson;
   padding: 10px 30px;
   margin-top: 20px;
@@ -162,6 +161,11 @@ span {
   border-radius: 5px;
   transition: background 0.4s ease, border 0.4s ease;
   cursor: pointer;
+}
+
+.buy-btn a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .product-item button:hover {
@@ -177,17 +181,16 @@ span {
   }
 
   .nav-bar {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start; 
   }
 
   .menu {
-    flex-direction: column;
-    padding: 10px 0;
+    flex-direction: row;
   }
 
   .menu li {
-    padding: 10px 0; 
+    padding: 10px; 
   }
 
   .product-grid {
