@@ -22,13 +22,9 @@
 
 #product-detail img {
   margin: 5px;
-  padding: 50px;
+  padding: 10px;
   width: 100%;
-  height: 100vh;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 100%;
   border-radius: 10px;
 }
 #product-detail {
